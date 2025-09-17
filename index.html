@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Maestro Juan - Amarres de Amor</title>
+  <link rel="stylesheet" href="styles.css">
+  <!-- Font Awesome para íconos -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  <canvas id="particles"></canvas>
+  <!-- HEADER -->
+  <header>
+    <h1>Maestro Juan</h1>
+    <p>Amarres de amor, guía espiritual y soluciones reales</p>
+    <button class="btn-consulta" id="consultaBtn">Consulta ahora</button>
+  </header>
+
+  <!-- NAV -->
+  <!-- NAV -->
+<nav>
+  <div class="nav-container">
+    <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú">
+      ☰
+    </button>
+    <ul id="menu">
+      <li><a href="#sobre-mi">Sobre mí</a></li>
+      <li><a href="#servicios">Servicios</a></li>
+      <li><a href="#testimonios">Testimonios</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+  </div>
+</nav>
+
+
+  <!-- MAIN -->
+  <main class="container">
+    <!-- SOBRE MI -->
+    <section id="sobre-mi">
+      <h2>Sobre mí</h2>
+      <p>
+        Soy el Maestro Juan, guía espiritual con más de 15 años de experiencia
+        ayudando a recuperar el amor perdido, sanar relaciones y proteger corazones
+        con prácticas ancestrales y resultados reales.
+      </p>
+    </section>
+
+    <!-- SERVICIOS -->
+    <section id="servicios">
+      <h2>Servicios</h2>
+      <div class="servicios-cards">
+
+        <!-- Amarre -->
+        <div class="card" tabindex="0" aria-label="Amarres de amor" 
+             data-title="Amarres de amor" 
+             data-desc="¿Buscas un amor duradero? Te ayudo a abrir las puertas hacia una relación llena de pasión y complicidad.">
+          <img src="/IMG/AMOR.png" alt="Velas encendidas ritual de amor" />
+          <h3>Amarres de amor</h3>
+          <p>¿Buscas un amor duradero? Te ayudo a abrir las puertas hacia una relación llena de pasión y complicidad.</p>
+        </div>
+
+        <!-- Alejamiento -->
+        <div class="card" tabindex="0" aria-label="Alejamiento de rivales" 
+             data-title="Alejamiento" 
+             data-desc="¿Dudas de la fidelidad de tu pareja? Con mi servicio de alejamiento, elimino rivales y fortalezco tu relación.">
+          <img src="/IMG/ALEJAMIENTO.png" alt="Humo y sombras alejamiento" />
+          <h3>Alejamiento de rivales</h3>
+          <p>¿Dudas de la fidelidad de tu pareja? Con mi servicio de alejamiento, elimino rivales y fortalezco tu relación.</p>
+        </div>
+
+        <!-- Tarot -->
+        <div class="card" tabindex="0" aria-label="Lectura de Tarot" 
+             data-title="Tarot" 
+             data-desc="Descubre tu destino y aclara tus dudas con una consulta de tarot clara y precisa.">
+          <img src="/IMG/TAROT.png" alt="Cartas de tarot sobre mesa mística" />
+          <h3>Lectura de Tarot</h3>
+          <p>Descubre tu destino y aclara tus dudas con una consulta de tarot clara y precisa.</p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- TESTIMONIOS -->
+   <!-- TESTIMONIOS -->
+<!-- TESTIMONIOS -->
+<section id="testimonios">
+  <h2>Testimonios</h2>
+  <div id="testimonio-box" class="testimonio">
+    <p id="testimonio-texto"></p>
+    <h4 id="testimonio-nombre"></h4>
+  </div>
+</section>
+
+
+
+    <!-- CONTACTO -->
+    <section id="contacto">
+      <h2>Contacto</h2>
+      <p>Puedes escribirme directamente por WhatsApp o usar el formulario de consulta.</p>
+    </section>
+  </main>
+
+  <!-- MODAL -->
+  <div id="modal" class="modal" aria-hidden="true" role="dialog" aria-labelledby="modalTitle" aria-describedby="modalDesc">
+    <div class="modal-content">
+      <button class="modal-close" id="modalClose" aria-label="Cerrar">&times;</button>
+      <h3 id="modalTitle">Consulta general</h3>
+      <p id="modalDesc">Completa el formulario para que podamos contactarte.</p>
+      <form id="contactForm">
+        <label for="name">Tu nombre</label>
+        <input id="name" name="name" type="text" required>
+
+        <label for="whatsapp">Tu WhatsApp</label>
+        <input id="whatsapp" name="whatsapp" type="tel" placeholder="Ej: 573001234567" required>
+
+        <label for="message">Mensaje</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <button type="submit" class="btn-consulta">Enviar consulta</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>&copy; 2025 Maestro Juan - Amarres de Amor. Todos los derechos reservados.</p>
+    <p>
+      📞 WhatsApp: <a href="https://wa.me/573213420848" target="_blank">+57 3213420848</a> | 
+    </p>
+   
+  </footer>
+
+  <script src="script.js" defer></script>
+
+  <!-- Botón flotante de WhatsApp -->
+<!-- Botón flotante de WhatsApp -->
+<a href="https://wa.me/573213420848" 
+   class="whatsapp-float" 
+   target="_blank" 
+   aria-label="Chatea por WhatsApp">
+   <i class="fab fa-whatsapp"></i>
+</a>
+
+
+<script src="script.js" defer></script>
+</body>
+</html>
+
+
+</body>
+</html>
+
